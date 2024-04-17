@@ -18,10 +18,9 @@ body {
     overflow-y: hidden;
   }
   
-  .nav-pills .nav-link.active,
-  .nav-pills .show>.nav-link {
-    background-color: #E6ECF1;
-    color: #2E4057;
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #E6ECF1 !important;
+    color: #2E4057 !important;
   }
   
   body,
