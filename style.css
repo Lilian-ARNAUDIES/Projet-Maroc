@@ -1,3 +1,56 @@
 h1 {
     padding: 50px;
 }
+
+.form-div {
+    display: flex;
+}
+
+.form-div label, p{
+    padding: 10px;
+}
+
+.form-div input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0px;
+}
+
+.email-container {
+    max-width: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.password-container {
+    max-width: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.valid-form-container{
+    max-width: 300px;
+    margin: auto;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.valid-form-container p{
+    color: green;
+}
+
+.invalid-form-container{
+    max-width: 300px;
+    margin: auto;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.invalid-form-container p{
+    color: red;
+}
+
+
