@@ -2,6 +2,7 @@ h1 {
     padding: 50px;
 }
 
+
 body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
@@ -85,4 +86,110 @@ body {
 
 .invalid-form-container p{
     color: red;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.confirm1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 50px;
+
+}
+
+.con{
+    align-items: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.confirmation1{
+    background-color: #DA4167;
+    color : #fff;
+}
+
+.confirmation1:after {
+    background-color: #EAECEE;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+}
+
+.confirmation1:hover:after {
+    transform: translate(0, 0);
+}
+
+
+.confirmation1:hover {
+    outline: 0;
+}
+.confirmation2{
+    background-color: #EAECEE;
+    color: #083D77;
+    
+}
+
+
+.disable1 {
+    background-color: #EAECEE;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter, sans-serif;
+    opacity: 0.5;
+    align-items: center;
+    background-color: #F6D8AE;
+    border-radius: 8px;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    position: relative;
+ 
+
+}
+.confirmation3{
+    background-color: #083D77;
+    color: #EAECEE;
+
+}
+.confirmation4{
+    background-color: #F6D8AE;
+ 
+
 }
